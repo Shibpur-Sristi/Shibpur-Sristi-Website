@@ -11,7 +11,7 @@
                                     <div class="thumb">
                                         <img class="full-width" src="images/upcoming/event_paridhan.jpg" alt="">
                                     </div>
-                                    </ul>-->
+                                    </ul>
                                 </div>
                             </div>
                             <div class="col-sm-8">
@@ -20,8 +20,7 @@
                                     <ul class="event-held list-inline">
                                         <li class="text-555"><i class="fa fa-calendar"></i> September - October</li>
                                     </ul>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi expedita
-                                        perspiciatis soluta quidem, recusandae sapiente.</p>
+                                    <p>"Paridhan” means “Vastra” in Sanskrit which in english is “clothing”. We started distributing clothes among slum kids back in 2015. Back then we don't have any kind of brand name or proper initiative, but in 2016 we decided to make a brand out of it. Thus we started the initiative under the brand name of “Paridhan”</p>
                                 </div>
                             </div>
                         </div>
@@ -43,8 +42,7 @@
                                     <ul class="event-held list-inline">
                                         <li class="text-555"><i class="fa fa-calendar"></i> June</li>
                                     </ul>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi expedita
-                                        perspiciatis soluta quidem, recusandae sapiente.</p>
+                                    <p>On the eve of World Environment Day we take initiatives to distribute saplings and biodegradable plastics to the local medicine and sweet shops and pledged them not to use the regular plastics that we generally get from these shops.</p>
                                 </div>
                             </div>
                         </div>
@@ -66,8 +64,7 @@
                                     <ul class="event-held list-inline">
                                         <li class="text-555"><i class="fa fa-calendar"></i> Quaterly</li>
                                     </ul>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi expedita
-                                        perspiciatis soluta quidem, recusandae sapiente.</p>
+                                    <p>On our 6th anniversary we decided to organize a one day cultural feast "Udvaban" for our well-wishers and donors. On 8th March, 2020. We published our Digital Magazine - Udvaban</p>
                                 </div>
                             </div>
                         </div>
@@ -89,8 +86,7 @@
                                     <ul class="event-held list-inline">
                                         <li class="text-555"><i class="fa fa-calendar"></i> Occasionally</li>
                                     </ul>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi expedita
-                                        perspiciatis soluta quidem, recusandae sapiente.</p>
+                                    <p>We shared our joy with poor children out there by successfully delivering dry foods.</p>
                                 </div>
                             </div>
                         </div>

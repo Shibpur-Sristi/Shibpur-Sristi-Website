@@ -4,7 +4,7 @@ include_once '../includes/db.php';
 
 // END_POINT = /api/api_gallery.php
 
-$query = "SELECT * FROM image_db ORDER BY author DESC";
+$query = "SELECT * FROM image_db ORDER BY RAND()";
 
 $queryResult = $conn->query($query);
 

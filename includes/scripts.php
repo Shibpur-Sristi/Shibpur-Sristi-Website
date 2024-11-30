@@ -23,10 +23,10 @@
 <!-- count to -->
 <script src="js/jquery.countTo.js"></script>
 <!-- gmap helper -->
-<!-- <script src="http://maps.google.com/maps/api/js?sensor=true"></script> -->
+<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
 <!--change-->
 <!-- gmap main script -->
-<!-- <script src="js/gmap.js"></script> -->
+<script src="js/gmap.js"></script>
 
 <!-- isotope script -->
 <script src="js/isotope.pkgd.min.js"></script>
@@ -47,6 +47,5 @@
 <script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
 <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>
 
-
-<!-- thm custom script -->
+<!-- Custom Script -->
 <script src="js/custom.js"></script>

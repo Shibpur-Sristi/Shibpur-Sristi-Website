@@ -5,7 +5,7 @@
 if (isset($_POST['submitContact'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "web@shibpursristi.org, secretary@shibpursristi.org, treasurer@shibpursristi.org";
+    $email_to = "web@shibpursristi.org";
     // $email_to = "manna.amit99@gmail.com";
     $email_subject = "ASK A QUESTION";
  

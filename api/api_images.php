@@ -12,7 +12,7 @@ $queryResult = $conn->query($query);
 $images = [];
 if ($queryResult->num_rows > 0) {
     while ($row = $queryResult->fetch_assoc()) {
-        $imageURL = 'https://www.shibpursristi.org/admin/sristi_page/uploads/' . $row["img"];
+        $imageURL = 'https://www.shibpursristi.org/admin/sristi_page/project_gallary/'.$prj_name.'/' . $row["img"];
     
 
         $image = array(

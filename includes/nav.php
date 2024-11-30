@@ -145,12 +145,9 @@
     <li><a href="contact.php">Contact</a></li>
 
     <li>
-        <a href="https://books.shibpursristi.org/portal/shibpursristi/login">Login</a>
+        <a href="donate.php">Donate Now</a>
     </li>
 
 
-    <form>
-        <script src="https://cdn.razorpay.com/static/widget/payment-button.js"
-            data-payment_button_id="pl_Fccy7n81nUQJSy"> </script>
-    </form>
+    <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_LgnX6hroTklkVf" async> </script> </form>
 </ul>

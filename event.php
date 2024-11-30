@@ -79,14 +79,32 @@
 
         return template;
     }
+           // Call to fetch project data
+       doAjax('api/api_projects.php', 'GET', { project: 'Event' })
+    .then(response => {
+        // Log the response to see if it's already an object or a string
+        console.log('Response:', response);
 
-    doAjax('api/api_projects.php', 'GET', {
-            project: 'Event'
-        })
-        .then(response => {
-            var projects = JSON.parse(response).data;
+        // Check if the response is already an object
+        let data;
+        if (typeof response === 'string') {
+            data = JSON.parse(response);  // If it's a string, parse it
+        } else {
+            data = response;  // If it's already an object, use it directly
+        }
+
+        if (data.statusCode === 200) {
+            const projects = data.data;
             $('#projects').html(setProjects(projects));
-        })
+        } else {
+            $('#projects').html('<p>No projects found.</p>');
+        }
+    })
+    .catch(error => {
+        console.error('Error fetching data:', error);
+        $('#projects').html('<p>Error loading data.</p>');
+    });
+        
     </script>
 
 </body>

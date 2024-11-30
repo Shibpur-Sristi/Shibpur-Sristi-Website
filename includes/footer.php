@@ -63,7 +63,7 @@
 
 <section class="footer-bottom">
     <div class="container text-center">
-        <p>©2021, WEB TEAM Shibpur Sristi</p>
+        <p>©2024, <a href="https://www.linkedin.com/in/debopriyo-ghosh-3669b6188" target="_blank">@Debopriyo</a> [Shibpur Sristi]</p>
     </div>
 </section>
 <!--newsletter-->

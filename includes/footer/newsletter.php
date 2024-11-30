@@ -1,7 +1,7 @@
 <?php 
 if(isset($_POST['submitNewsletter'])){ 
     // Include the database configuration file 
-    include_once 'db.php'; 
+    include_once '../../db.php'; 
    
      
     $name = $_POST['name'];
@@ -15,7 +15,9 @@ if(isset($_POST['submitNewsletter'])){
     if(!empty($insertValuesSQL)){ 
         $insertValuesSQL = trim($insertValuesSQL, ','); 
         // Insert image file name into database 
-        $insert = $conn->query("INSERT INTO subscriber (`name`, `email`) VALUES $insertValuesSQL"); 
+        $insert = $conn->query("INSERT INTO subscriberd (`name`, `email`) VALUES $insertValuesSQL"); 
+
+#prevent autoscript attack added d in subscriber
         if($insert){ 
             $errorUpload = !empty($errorUpload)?'Upload Error: '.trim($errorUpload, ' | '):''; 
             $errorUploadType = !empty($errorUploadType)?'File Type Error: '.trim($errorUploadType, ' | '):''; 
