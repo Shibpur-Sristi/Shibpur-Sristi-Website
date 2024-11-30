@@ -1,7 +1,7 @@
 <?php
 if (isset($_POST['submit'])) {
     // Include the database configuration file
-    include_once 'db.php';
+    include_once '../db.php';
      
     // File upload configuration
     $targetDir = "admin/sristi_page/member_data/";
